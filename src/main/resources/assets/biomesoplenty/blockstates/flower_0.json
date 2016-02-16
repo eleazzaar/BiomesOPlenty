@@ -1,6 +1,11 @@
 {
     "variants": {
-        "variant=clover": { "model": "biomesoplenty:clover" },
+        "variant=clover": [
+            { "model": "biomesoplenty:clover" },
+            { "model": "biomesoplenty:clover", "y": 90 },
+            { "model": "biomesoplenty:clover", "y": 180 },
+            { "model": "biomesoplenty:clover", "y": 270 }
+        	],
         "variant=swampflower": { "model": "biomesoplenty:swampflower" },
         "variant=deathbloom": { "model": "biomesoplenty:deathbloom" },
         "variant=glowflower": { "model": "biomesoplenty:glowflower" },
@@ -12,7 +17,7 @@
         "variant=white_anemone": { "model": "biomesoplenty:white_anemone" },
         "variant=enderlotus": { "model": "biomesoplenty:enderlotus" },
         "variant=bromeliad": { "model": "biomesoplenty:bromeliad" },
-        "variant=wilted_lily": { "model": "biomesoplenty:wilted_lily" },
+        "variant=dandelion": { "model": "biomesoplenty:dandelion" },
         "variant=pink_hibiscus": { "model": "biomesoplenty:pink_hibiscus" },
         "variant=lily_of_the_valley": { "model": "biomesoplenty:lily_of_the_valley" },
         "variant=burning_blossom": { "model": "biomesoplenty:burning_blossom" }
